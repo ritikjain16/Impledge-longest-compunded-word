@@ -24,6 +24,7 @@ def LongestCompoundWord(original_trie, trie, word, level=0):
   return LongestCompoundWord(original_trie, trie[first_letter], word[1:], level)
 
 #Words that were in your question
+# f = open("file_name", 'r')
 f = open("./Input_01.txt", 'r')
 # f = open("./Input_02.txt", 'r')
 
